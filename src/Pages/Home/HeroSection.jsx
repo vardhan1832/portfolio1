@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section id="heroSection" className="hero--section">
@@ -11,10 +12,11 @@ const HeroSection = () => {
         </h1>
         <p className="hero--section-description">
         Welcome to my digital realm! I specialize in crafting seamless user experiences, turning innovative ideas into robust, user-centric applications.
-            <br /> Building Tomorrow's Solutions, Today!!
         </p>
       </div>
+      <Link to='https://www.linkedin.com/in/sreevardhan-vardha-09012b174/' className="links">
       <button className="btn btn-primary">Get In Touch</button>
+      </Link>
     </div>
     <div className="hero--section--img">
       <img src="./img/imagenew.png" alt="Hero Section" />
